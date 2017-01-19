@@ -37,6 +37,8 @@ RUN apt-get update && apt-get install -y \
 		vim \
 		wget \
 		zlib1g-dev \
+		swig \
+		screen \
 		&& \
 	apt-get clean && \
 	apt-get autoremove && \
